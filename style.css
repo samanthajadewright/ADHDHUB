@@ -1,23 +1,29 @@
-/* style.css */
-
-style:focus-visible
-
 /* PHONE VERSION */
-@media only screen and
-(min-width: 320px) {
-h1:{color:rgb(237, 229, 70);}
+@media only screen and (max-width: 767px) {
+  h1 {
+    color: rgb(237, 229, 70);
+  }
 }
-}
+
 /* TABLET VERSION */
-@media only screen and
-(min-width: 768px) {
-h1:{color:rgb(237, 229, 70);}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  h1 {
+    color: rgb(237, 229, 70);
+  }
 }
+
 /* DESKTOP VERSION */
-@media only screen and
-(min-width: 980px) {
-h1 {color:rgb(224, 233, 57);}
+@media only screen and (min-width: 980px) {
+  h1 {
+    color: rgb(224, 233, 57);
+  }
 }
+
+/* General Styles */
+h1 {
+  /* Add your desired styles for h1 element */
+}
+
 
 
 :root {
